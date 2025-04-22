@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .clearfix::after {
+        content: '';
+        display: block;
+        background-color: black;
+        clear: both;
+    }
+
+    .block {
+        width: 300px;
+        height: 400px;
+        float: left;
+    }
+
+    .block1 {
+        background-color: red;
+    }
+
+    .block2 {
+        background-color: green;
+        float: none;
+        width: auto;
+        height: 250px;
+    }
+
+    .block3 {
+        background-color: blue;
+        float: right;
+    }
+
+    .header {
+        height: 100px;
+        background-color: rgb(8, 8, 8);
+        color: antiquewhite;
+    }
+
+    .footer {
+        height: 50px;
+        background-color: rgb(59, 146, 192);
+        color: antiquewhite;
+        clear: both;
+    }
+
+    .wrap {
+        background-color: blueviolet;
+    }
+
+    .dop {
+        float: left;
+        height: 40px;
+        width: 400px;
+        background-color: burlywood;
+        margin-top: 30px;
+    }
+    .dop1 {
+        margin-left: 10px
+    }
+    .dop1 {
+        margin-left: 10px ;
+    }
+    .dop2 {
+        margin-left: 50px;
+    }
+    .dop2 {
+        margin-left: 50px;
+    }
+</style>
+
+<body>
+    <div class="header clearfix">
+        <div class="dop1 dop">lor</div>
+        <div class="dop1 dop">dop2</div>
+        <div class="dop2 dop">dop3</div>
+        <div class="dop2 dop">dop4</div>
+    </div>
+    <div class="wrap clearfix">
+        <div class="block block1"></div>
+        <div class="block block3"></div>
+        <div class="block block2"></div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>
