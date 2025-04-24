@@ -1,0 +1,22 @@
+* {margin: 0;
+box-sizing: border-box;
+list-style: none;
+}
+.header { 
+    background-repeat: no-repeat;
+background-image: url(http://fe.it-academy.by/Sites/0045836/background.png);}
+.headertop {padding-top: 28px;}
+.container {margin: 0 auto;
+width: 1440px;}
+.clearfix::after {content: "";
+display: block;
+clear: both;}
+.a {float: left;
+width: 277px;
+height: 56px;
+}
+.b {float: right;}
+
+
+
+
