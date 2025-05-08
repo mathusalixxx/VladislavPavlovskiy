@@ -92,8 +92,6 @@ a:visited {
   float: right;
 }
 .container1 {
-  margin: 0 auto;
-  width: 1440px;
   margin-top: 280px;
   font-family: Montserrat;
 }
@@ -133,8 +131,6 @@ a:visited {
   background-color: #242424;
 }
 .container2 {
-  margin: 0 auto;
-  width: 1440px;
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 700;
@@ -307,8 +303,6 @@ a:visited {
   height: 748px;
 }
 .container4 {
-  margin: 0 auto;
-  width: 1440px;
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 700;
@@ -318,6 +312,8 @@ a:visited {
 }
 .housenumber {
   float: left;
+  font-weight: 600;
+  font-size: 24px;
 }
 .flatsearch {
   float: right;
@@ -329,8 +325,6 @@ a:visited {
   height: 516px;
 }
 .container5 {
-  margin: 0 auto;
-  width: 1440px;
   padding-top: 43px;
 }
 .aboutpark {
@@ -375,10 +369,56 @@ h4 {
   color: #ffffff;
 }
 .plusofpark {
-  height: 640px;
+  height: 670px;
+  background-color: #242424;
+  height: 1555px;
+}
+.map {
+  height: 827px;
   background-color: #242424;
 }
-.container6 {
+.pluses {
+  height: 120px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 123%;
+  text-align: center;
+  padding-top: 33px;
+}
+.icons {
+  width: 1905px;
   margin: 0 auto;
-  width: 1440px;
+}
+.icon {
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 345px;
+  height: 300px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.options {
+  background-color: #242424;
+}
+.options2 {
+  height: 740px;
+  background-color: #242424;
+}
+.visual {
+  float: left;
+}
+.complex p {
+  margin-left: 760px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 123%;
 }
