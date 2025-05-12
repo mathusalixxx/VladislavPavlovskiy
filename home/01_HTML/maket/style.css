@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 a:visited {
   color: currentColor;
 }
@@ -83,11 +84,8 @@ a:visited {
   color: #242424;
   padding: 8px 24px;
   border: 1px solid #979797;
+  font: normal normal 500 16px "Inter";
   border-radius: 10px;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 123%;
-  font-size: 16px;
   margin-left: 5px;
   float: right;
 }
@@ -99,45 +97,40 @@ a:visited {
   float: right;
 }
 .park h1 {
-  font-size: 72px;
-  line-height: 123%;
   color: #ffffff;
-  font-weight: 700;
+  font: normal normal 700 72px "Montserrat";
 }
 .park p:last-of-type {
-  font-size: 28px;
-  line-height: 123%;
   color: #ffffff;
-  font-weight: 500;
+  font: normal normal 500 28px "Montserrat";
 }
 .buttonshow {
   background-color: #ffffff;
-  width: 260px;
+  width: 270px;
   height: 60px;
   color: #242424;
   padding: 19px 24px;
   border: 1px solid #979797;
   border-radius: 16px;
-  font-weight: 500;
-  line-height: 100%;
-  font-size: 18px;
   margin-top: 32px;
+  font: normal normal 500 18px "Montserrat";
 }
 .header2 {
   height: 200px;
   background-color: #242424;
+  background-image: url(/home/01_HTML/maket/img/des.png),
+    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-position: left, right;
+  background-repeat: no-repeat;
 }
 .types {
   background-color: #242424;
 }
 .container2 {
   color: #ffffff;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 123%;
   text-align: center;
-  padding-top: 73px;
+  padding-top: 65px;
+  font: normal normal 700 45px "Montserrat";
 }
 .blockk {
   float: left;
@@ -315,6 +308,12 @@ a:visited {
   font-weight: 600;
   font-size: 24px;
 }
+.numbers {
+  float: left;
+  color: #ffffff;
+  margin-top: 50px;
+  font: normal normal 500 18px "Montserrat";
+}
 .flatsearch {
   float: right;
   margin-top: 16px;
@@ -414,11 +413,157 @@ h4 {
 .visual {
   float: left;
 }
-.complex p {
+.complex {
   margin-left: 761px;
   color: #ffffff;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 123%;
+}
+.complex h5 {
+  font: normal normal 700 28px "Montserrat";
+  padding-bottom: 30px;
+}
+.complex p {
+  font: normal normal 500 22px "Montserrat";
+  padding-bottom: 30px;
+}
+.complex p:last-of-type {
+  font: italic normal 500 22px "Montserrat";
+  padding-bottom: 30px;
+}
+.complex > button {
+  background-color: #f8b806;
+  width: 682px;
+  height: 60px;
+  color: #242424;
+  padding: 8px 24px;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  font: normal normal 500 16px "Inter";
+  margin-top: 32px;
+}
+.comfortlife {
+  height: 389px;
+  background-color: #242424;
+}
+.block > p {
+  font: normal normal 400 32px "Montserrat";
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.comfort {
+  height: 880px;
+  background-color: #242424;
+  background-image: url(/home/01_HTML/maket/img/Abstract\ Design2.png);
+  background-repeat: no-repeat;
+  background-position: 86% 129%;
+}
+.comfort1 {
+  height: 60px;
+  background-color: #797979;
+}
+.comfort1 li {
+  float: left;
+  padding-top: 19px;
+  font: normal normal 500 18px "Montserrat";
+  color: #ffffff;
+  padding-right: 100px;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+.flats {
+  height: 1000px;
+  background-color: #242424;
+}
+.flats1 {
+  float: left;
+}
+.flats1 h6 {
+  margin-bottom: 67px;
+  font: normal normal 600 58px "Montserrat";
+  color: #ffffff;
+}
+.flats1 p:first-of-type {
+  font: normal normal 700 45px "Montserrat";
+  color: #ffffff;
+}
+.flats1 p:last-of-type {
+  margin-top: 16px;
+  font: normal normal 400 32px "Montserrat";
+  color: #ffffff;
+}
+.picturesofflats {
+  float: right;
+}
+.zayavka {
+  background-color: #242424;
+  height: 365px;
+}
+.search1 {
+  background-color: #3f3d42;
+  height: 365px;
+}
+.search1 > p {
+  font: normal normal 700 28px "Montserrat";
+  color: #ffffff;
+}
+.map {
+  background-color: #242424;
+  height: 449px;
+  text-align: center;
+  overflow: hidden;
+}
+.footer {
+  height: 376px;
+  background-color: #242424;
+  border-bottom: 2px solid #ffffff66;
+  border-top: 2px solid #ffffff66;
+}
+.re {
+  padding-top: 64px;
+  font: normal normal 500 16px "Montserrat";
+  color: #ffffff;
+  float: left;
+}
+.re > p {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.re > button {
+  background-color: #f8b806;
+  width: 194px;
+  height: 50px;
+  color: #ffff;
+  padding: 5px 8px;
+  border: 1px solid #979797;
+  border-radius: 16px;
+  font: normal normal 500 16px "Montserrat";
+}
+.navigation {
+  float: right;
+  padding-top: 156px;
+  margin-right: -23px;
+  font: normal normal 500 20px "Montserrat";
+  color: #ffff;
+}
+.n1 {
+  float: left;
+  margin-right: 120px;
+}
+.n2 {
+  float: right;
+}
+.n1 > li {
+  padding-bottom: 20px;
+}
+.n2 > li {
+  padding-bottom: 20px;
+}
+.gg {
+  background-color: #242424;
+  height: 116px;
+}
+.gg > p {
+  font: normal normal 400 14px "Montserrat";
+  color: #ffffff;
+  padding-top: 21px;
 }
