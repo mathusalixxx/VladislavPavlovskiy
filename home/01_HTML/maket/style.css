@@ -116,21 +116,19 @@ a:visited {
   font: normal normal 500 18px "Montserrat";
 }
 .header2 {
-  height: 200px;
   background-color: #242424;
+  font: normal normal 700 45px "Montserrat";
+  color: #ffffff;
+  text-align: center;
   background-image: url(/home/01_HTML/maket/img/des.png),
     url(/home/01_HTML/maket/img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
+  padding-top: 73px;
+  padding-bottom: 73px;
 }
 .types {
   background-color: #242424;
-}
-.container2 {
-  color: #ffffff;
-  text-align: center;
-  padding-top: 65px;
-  font: normal normal 700 45px "Montserrat";
 }
 .blockk {
   float: left;
@@ -162,7 +160,6 @@ a:visited {
 }
 .footer1 {
   background-color: #242424;
-  height: 116px;
   text-align: center;
 }
 .footer1 button {
@@ -189,13 +186,10 @@ a:visited {
   width: 346px;
   height: 42px;
   margin-top: 12px;
-  font-family: Montserrat;
+  font: normal normal 600 18px "Montserrat";
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 10px 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 123%;
 }
 .house1 p:last-of-type {
   color: #ffffff;
@@ -205,10 +199,7 @@ a:visited {
   margin-top: 461px;
   margin-left: 20px;
   padding: 10px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 29px;
-  line-height: 123%;
+  font: normal normal 600 29px "Montserrat";
 }
 .house2 p:first-of-type {
   color: #242424;
@@ -216,13 +207,10 @@ a:visited {
   width: 231px;
   height: 42px;
   margin-top: 12px;
-  font-family: Montserrat;
+  font: normal normal 600 18px "Montserrat";
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 10px 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 123%;
 }
 .house2 p:last-of-type {
   color: #ffffff;
@@ -232,10 +220,7 @@ a:visited {
   margin-top: 461px;
   margin-left: 20px;
   padding: 10px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 29px;
-  line-height: 123%;
+  font: normal normal 600 29px "Montserrat";
 }
 .house3 p:first-of-type {
   color: #242424;
@@ -243,13 +228,10 @@ a:visited {
   width: 372px;
   height: 42px;
   margin-top: 12px;
-  font-family: Montserrat;
+  font: normal normal 600 18px "Montserrat";
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 10px 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 123%;
 }
 .house3 p:last-of-type {
   color: #ffffff;
@@ -259,10 +241,7 @@ a:visited {
   margin-top: 461px;
   margin-left: 20px;
   padding: 10px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 29px;
-  line-height: 123%;
+  font: normal normal 600 29px "Montserrat";
 }
 .house4 p:first-of-type {
   color: #242424;
@@ -270,13 +249,10 @@ a:visited {
   width: 356px;
   height: 42px;
   margin-top: 12px;
-  font-family: Montserrat;
+  font: normal normal 600 18px "Montserrat";
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 10px 20px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 123%;
 }
 .house4 p:last-of-type {
   color: #ffffff;
@@ -286,21 +262,14 @@ a:visited {
   margin-top: 461px;
   margin-left: 20px;
   padding: 10px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 29px;
-  line-height: 123%;
+  font: normal normal 600 29px "Montserrat";
 }
 .search {
   background-color: #242424;
-  height: 748px;
 }
 .container4 {
   color: #ffffff;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 123%;
+  font: normal normal 700 45px "Montserrat";
   padding-top: 85px;
 }
 .housenumber {
@@ -338,87 +307,76 @@ a:visited {
 }
 .aboutpark {
   width: 726px;
-  height: 431px;
   float: left;
 }
 h4 {
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 123%;
+  font: normal normal 700 45px "Montserrat";
   color: #ffffff;
 }
 .aboutpark p:first-of-type {
+  font: normal normal 400 24px "Montserrat";
   font-family: Montserrat;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 123%;
   color: #ffffff;
 }
-.aboutpark p:last-of-type {
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 123%;
+.aboutpark p:nth-of-type(2) {
+  font: normal normal 600 24px "Montserrat";
   color: #ffffff;
-  padding-top: 90px;
+  padding-top: 70px;
   padding-left: 8px;
 }
-
+.aboutpark p:last-of-type {
+  font: normal normal 450 19px "Montserrat";
+  color: #ffffff;
+}
 .aboutpark + img {
   width: 682px;
   height: 431px;
   float: right;
 }
-.aboutpark span {
-  font-family: Montserrat;
-  font-weight: 450;
-  font-size: 19px;
-  line-height: 123%;
-  color: #ffffff;
-}
 .plusofpark {
-  height: 670px;
-  background-color: #242424;
-  height: 1555px;
-}
-.map {
-  height: 827px;
   background-color: #242424;
 }
-.pluses {
-  height: 120px;
+.header3 {
+  font: normal normal 700 45px "Montserrat";
   color: #ffffff;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 123%;
   text-align: center;
+  background-image: url(/home/01_HTML/maket/img/des.png),
+    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-position: left, right;
+  background-repeat: no-repeat;
   padding-top: 33px;
-}
-.icons {
-  width: 1905px;
-  margin: 0 auto;
+  padding-bottom: 33px;
 }
 .icon {
   float: left;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
   width: 345px;
-  height: 300px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 20px;
+  height: 250px;
+  font: normal normal 600 20px "Montserrat";
   line-height: 150%;
   color: #ffffff;
 }
-.options {
+.view {
+  margin: 0 auto;
+  width: 1905px;
+}
+.header4 {
+  font: normal normal 700 45px "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  background-image: url(/home/01_HTML/maket/img/des.png),
+    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-position: left, right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #242424;
 }
-.options2 {
-  height: 740px;
-  background-color: #242424;
+.options {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #3f3d42;
 }
 .visual {
   float: left;
@@ -448,11 +406,22 @@ h4 {
   border: 1px solid #979797;
   border-radius: 10px;
   font: normal normal 500 16px "Inter";
-  margin-top: 32px;
+}
+.header5 {
+  font: normal normal 700 45px "Montserrat";
+  color: #ffffff;
+  text-align: center;
+  background-image: url(/home/01_HTML/maket/img/iconLine.svg),
+    url(/home/01_HTML/maket/img/des.png);
+  background-position: left, right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #242424;
 }
 .comfortlife {
-  height: 389px;
   background-color: #242424;
+  padding-bottom: 32px;
 }
 .block > p {
   font: normal normal 400 32px "Montserrat";
@@ -481,13 +450,14 @@ h4 {
   margin-bottom: 40px;
 }
 .flats {
-  height: 1000px;
   background-color: #242424;
+  padding-bottom: 72px;
 }
+
 .flats1 {
   float: left;
 }
-.flats1 h6 {
+.container h6 {
   margin-bottom: 67px;
   font: normal normal 600 58px "Montserrat";
   color: #ffffff;
@@ -502,19 +472,94 @@ h4 {
   color: #ffffff;
 }
 .picturesofflats {
-  float: right;
+  margin-left: 748px;
 }
+.picturesofflats img:first-of-type {
+  float: right;
+  margin-right: -230px;
+  margin-top: -209px;
+}
+.picturesofflats img:last-of-type {
+  margin-top: -4px;
+}
+
 .zayavka {
-  background-color: #242424;
-  height: 365px;
+  background-color: #3f3d42;
+  padding-bottom: 32px;
 }
 .search1 {
   background-color: #3f3d42;
-  height: 365px;
 }
 .search1 > p {
   font: normal normal 700 28px "Montserrat";
   color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.search1 form:first-of-type input[type="text"] {
+  width: 470px;
+  height: 72px;
+  background-color: #333335;
+  padding: 16px 24px;
+  margin-right: 16px;
+  border-radius: 10px;
+  float: left;
+  font: normal normal 500 18px "Montserrat";
+  color: #ffffff;
+}
+input[type="checkbox"] {
+  margin-top: 32px;
+  height: 24px;
+  width: 24px;
+  margin-bottom: 32px;
+}
+.search1 form:last-of-type input[type="text"] {
+  width: 1268px;
+  height: 72px;
+  background-color: #333335;
+  padding: 16px 24px;
+  margin-right: 16px;
+  border-radius: 10px;
+  font: normal normal 500 18px "Montserrat";
+  color: #ffffff;
+  text-align: center;
+}
+label {
+  padding-left: 15px;
+}
+label > span {
+  color: #f8b806;
+  font: normal normal 400 22px "Montserrat";
+}
+form {
+  color: #ff3f3f;
+  font: normal normal 400 22px "Montserrat";
+}
+.search1 > button:first-of-type {
+  background-color: #f8b806;
+  width: 468px;
+  height: 72px;
+  color: #242424;
+  padding: 8px 24px;
+  border: 1px solid;
+  border-radius: 10px;
+  font: normal normal 500 16px "Inter";
+}
+form:last-of-type {
+  float: left;
+}
+.search1 > button:nth-of-type(2) {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #333335;
+}
+.search1 > button:nth-of-type(3) {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #333335;
+  margin-left: 16px;
 }
 .map {
   background-color: #242424;
