@@ -123,8 +123,8 @@ a:visited {
   background-image: url(img/des.png), url(img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
-  padding-top: 73px;
-  padding-bottom: 73px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .types {
   background-color: #242424;
@@ -300,6 +300,9 @@ a:visited {
 .info {
   background-color: #242424;
   height: 516px;
+  background-image: url(img/ad3.png);
+  background-repeat: no-repeat;
+  background-position: 61% 129%;
 }
 .container5 {
   padding-top: 43px;
@@ -363,7 +366,7 @@ h4 {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/img/des.png), url(img/iconLine.svg);
+  background-image: url(img/des.png), url(img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -374,6 +377,9 @@ h4 {
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: #3f3d42;
+  background-image: url(img/Ad1.png);
+  background-repeat: no-repeat;
+  background-position: 102% 106%;
 }
 .visual {
   float: left;
@@ -408,7 +414,7 @@ h4 {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/img/iconLine.svg), url(img/des.png);
+  background-image: url(img/iconLine2.svg), url(img/Ad2.gif);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 50px;
