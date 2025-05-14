@@ -120,8 +120,7 @@ a:visited {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/home/01_HTML/maket/img/des.png),
-    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-image: url(img/des.png), url(img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 73px;
@@ -340,8 +339,7 @@ h4 {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/home/01_HTML/maket/img/des.png),
-    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-image: url(img/des.png), url(img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 33px;
@@ -365,8 +363,7 @@ h4 {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/home/01_HTML/maket/img/des.png),
-    url(/home/01_HTML/maket/img/iconLine.svg);
+  background-image: url(/img/des.png), url(img/iconLine.svg);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -411,8 +408,7 @@ h4 {
   font: normal normal 700 45px "Montserrat";
   color: #ffffff;
   text-align: center;
-  background-image: url(/home/01_HTML/maket/img/iconLine.svg),
-    url(/home/01_HTML/maket/img/des.png);
+  background-image: url(/img/iconLine.svg), url(img/des.png);
   background-position: left, right;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -432,7 +428,7 @@ h4 {
 .comfort {
   height: 880px;
   background-color: #242424;
-  background-image: url(/home/01_HTML/maket/img/Abstract\ Design2.png);
+  background-image: url(img/Abstract\ Design2.png);
   background-repeat: no-repeat;
   background-position: 86% 129%;
 }
