@@ -121,27 +121,91 @@ ul {
   text-align: center;
   margin-top: 9px;
 }
+.header1 {
+  display: flex;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  margin-bottom: 44px;
+  width: 100%;
+}
+.icons div:first-of-type {
+  border-right: 2px solid #ffffff;
+  height: 65%;
+  margin-right: 13px;
+}
+.icons div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-end;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.icons div:last-of-type {
+  height: 30%;
+  border-right: 2px solid #ffffff;
+  margin-right: 13px;
+}
+.icons div img {
+  height: 26px;
+  width: 26px;
+}
+
 .pricerequest {
   margin-top: 116px;
   display: flex;
   gap: 88px;
 }
-.pricerequest div:first-child {
+.pricerequest > div:first-child {
   background-image: url(img/2.png);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 360px;
   height: 554px;
+  position: relative;
 }
-.pricerequest div:last-child {
+.line {
+  background-color: #000000;
+  position: absolute;
+}
+.line1 {
+  width: 100px;
+  height: 2px;
+  right: 0px;
+  top: -28px;
+}
+.line2 {
+  width: 2px;
+  height: 100px;
+  right: -28px;
+  top: 0px;
+}
+
+.line3 {
+  width: 100px;
+  height: 2px;
+  left: 0px;
+  bottom: -28px;
+}
+.line4 {
+  width: 2px;
+  height: 100px;
+  left: -28px;
+  bottom: 0px;
+}
+.pricerequest > div:last-child {
   display: flex;
   flex-direction: column;
 }
-.pricerequest div:last-child h2 {
+.pricerequest > div:last-child h2 {
   font: normal normal 400 68px "Raleway";
   color: #11100e;
   padding-bottom: 26px;
 }
-.pricerequest div:last-child p {
+.pricerequest > div:last-child p {
   font: normal normal 400 30px "Raleway";
   color: #11100e;
   text-shadow: 1px -1px 7px #bad9005c;
@@ -189,6 +253,23 @@ ul {
   padding-bottom: 47px;
   margin-right: 140px;
   margin-left: 80px;
+  position: relative;
+}
+.rassrochka1 {
+  width: 2px;
+  height: 89px;
+  left: 0px;
+  top: -89px;
+  background-color: #af9678;
+  position: absolute;
+}
+.rassrochka2 {
+  width: 400px;
+  height: 2px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #af9678;
+  position: absolute;
 }
 .catalog {
   margin-top: 145px;
@@ -208,10 +289,25 @@ h3 {
   margin-top: 125px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.line5 {
+  width: 100px;
+  height: 2px;
+  left: 0px;
+  top: -28px;
+}
+.line6 {
+  width: 2px;
+  height: 100px;
+  left: -28px;
+  top: 0px;
 }
 .shkafi p {
   color: #ffffff;
   font: normal normal 400 30px "Raleway";
+  text-align: center;
 }
 .shkafi1 {
   background-image: url(img/Rectangle\ 48.png), url(img/furniture1.jpg);
@@ -265,10 +361,77 @@ h3 {
   height: 432px;
   width: 340px;
 }
+.pic > div:last-child {
+  display: inline-block;
+  background-color: #11100e;
+  padding: 10px 19px;
+  font: normal normal 400 19px "Raleway";
+  color: #ffffff;
+  position: relative;
+  bottom: 59px;
+  right: 20px;
+}
+.pic > div:first-child {
+  position: relative;
+  top: 446px;
+}
+.types > div:nth-of-type(1) {
+  background-image: url(img/Rectangle\ 26.png);
+}
+.types > div:nth-of-type(2) {
+  background-image: url(img/Rectangle\ 27.png);
+}
+.types > div:nth-of-type(3) {
+  background-image: url(img/Rectangle\ 28.png);
+}
+.types > div:nth-of-type(4) {
+  background-image: url(img/Rectangle\ 29.png);
+}
+.types > div:nth-of-type(5) {
+  background-image: url(img/Rectangle\ 30.png);
+}
+.types > div:nth-of-type(6) {
+  background-image: url(img/Rectangle\ 31.png);
+}
 .types div p {
   font: normal normal 400 30px "Raleway";
   color: #000000;
-  padding-top: 24px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.miniprice {
+  position: absolute;
+  color: #937a60;
+  font-size: 13px;
+  right: -3px;
+  top: -7px;
+  font: normal normal 400 13px "Raleway";
+}
+.price1 p:last-child {
+  font: normal normal 400 28px "Raleway";
+  color: #937a60;
+}
+.price2 > div p {
+  font: normal normal 400 28px "Raleway";
+  color: #e52b2b;
+}
+.price3 > div p {
+  font: normal normal 400 28px "Raleway";
+  color: #e52b2b;
+}
+.price4 > div p {
+  font: normal normal 400 25px "Raleway";
+  color: #937a60;
+}
+.price5 > div p {
+  font: normal normal 400 28px "Raleway";
+  color: #e52b2b;
+}
+.price6 > div p {
+  font: normal normal 400 28px "Raleway";
+  color: #e52b2b;
 }
 .specialOffers > p {
   color: #937a60;
@@ -373,6 +536,47 @@ h3 {
   padding-right: 5px;
   font-size: 37px;
 }
+.aboutJob {
+  display: flex;
+  margin-top: 97px;
+  padding-left: 41px;
+  margin-bottom: 148px;
+  font: normal normal 400 30px "Raleway";
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 442px;
+  gap: 70px;
+}
+.aboutJob div {
+  display: flex;
+  align-items: center;
+}
+.aboutJob div p {
+  padding-left: 28px;
+}
+.aboutJob > div:first-of-type > img:last-of-type {
+  position: relative;
+  left: 55px;
+}
+.aboutJob > div:nth-of-type(4) > img:last-of-type {
+  position: relative;
+  bottom: -100px;
+  right: 10px;
+}
+.aboutJob > div:nth-of-type(5) > img:last-of-type {
+  position: relative;
+  right: 540px;
+}
+.aboutJob > div:nth-of-type(2) > img:last-of-type {
+  position: relative;
+  top: 80px;
+  right: 340px;
+}
+.aboutJob > div:nth-of-type(3) > img:last-of-type {
+  position: relative;
+  left: 101px;
+}
+
 .priceRequest1 {
   background: url(img/image\ 37.png) left no-repeat,
     url(img/Rectangle\ 42.png) right no-repeat;
@@ -394,4 +598,86 @@ h3 {
 }
 .priceRequest1 button {
   box-shadow: 1px 3px 16px #ffdbb038;
+}
+.contacts {
+  margin-top: 149px;
+}
+.info {
+  display: flex;
+  margin-top: 52px;
+  gap: 149px;
+  margin-bottom: 190px;
+}
+.info div:first-of-type {
+  font: normal normal 400 30px "Raleway";
+  margin-top: 125px;
+  margin-left: 83px;
+}
+.info div:first-of-type img {
+  margin-right: 18px;
+}
+.info div:first-of-type p {
+  padding-bottom: 50px;
+}
+.info div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background: url(img/Rectangle\ 43.png) no-repeat;
+  background-size: cover;
+  width: 540px;
+  height: 720px;
+}
+.info div:last-of-type p {
+  font: normal normal 400 30px "Raleway";
+  color: #ffffff;
+  margin-top: 66px;
+  margin-bottom: 36px;
+}
+.info form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #11100e75;
+  margin-bottom: 50px;
+}
+.info input {
+  width: 412px;
+  height: 56px;
+  border-radius: 10px;
+  padding-left: 29px;
+  font: normal normal 400 26px "Raleway";
+}
+.info textarea {
+  width: 412px;
+  height: 242px;
+  border-radius: 10px;
+  padding-left: 29px;
+  font: normal normal 400 26px "Raleway";
+  color: #11100e75;
+}
+.info button {
+  box-shadow: 1px 3px 16px #ffdbb038;
+}
+.footer {
+  background-color: #937a60;
+}
+.info1 {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.info1 p {
+  padding-right: 127px;
+  font: normal normal 700 32px "Playfair Display";
+  color: #ffffff;
+}
+.info1 ul {
+  display: flex;
+  flex-direction: column;
+  width: 259px;
+  font: normal normal 400 26px "Raleway";
+  color: #ffffff;
 }
