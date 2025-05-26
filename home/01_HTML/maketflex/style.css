@@ -503,12 +503,12 @@ h3 {
   background: #937a60;
 }
 .container1 {
-  width: 1440px;
   margin: 0 auto;
+  background-image: url(img/c4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .aboutManufacure {
-  background: url(img/image\ 34.png) left top no-repeat,
-    url(img/image\ 33.png) right top no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -576,15 +576,16 @@ h3 {
   position: relative;
   left: 101px;
 }
-
-.priceRequest1 {
+.container2 {
   background: url(img/image\ 37.png) left no-repeat,
     url(img/Rectangle\ 42.png) right no-repeat;
+}
+.priceRequest1 {
   display: flex;
   flex-direction: column;
   padding-bottom: 268px;
   padding-top: 287px;
-  padding-left: 650px;
+  padding-left: 510px;
 }
 .priceRequest1 p {
   font: normal normal 400 68px "Raleway";
