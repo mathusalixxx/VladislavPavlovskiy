@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      form {
+        padding: 20px;
+      }
+      div {
+        margin-top: 10px;
+      }
+      div > p {
+        float: left;
+        width: 15%;
+      }
+      div:nth-of-type(3) > div {
+        float: left;
+        margin-right: 10px;
+      }
+
+      input[type="radio"]:nth-of-type(2),
+      input[type="radio"]:last-of-type {
+        margin-right: 10px;
+      }
+
+      input[type="text"] {
+        width: 85%;
+      }
+      textarea {
+        width: 100%;
+      }
+      @media all and (max-width: 1200px) {
+        div > p {
+          float: none;
+          width: auto;
+        }
+        select {
+          width: 100%;
+        }
+        input[type="text"] {
+          width: 100%;
+        }
+        div:nth-of-type(3) > div {
+          float: none;
+        }
+        div:nth-of-type(4) > p {
+          float: left;
+          margin-right: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+      <div>
+        <p>Название статьи:</p>
+        <input type="text" />
+      </div>
+      <div>
+        <p>Рубрика:</p>
+        <select name="aaa">
+          <option value="1">Програмирование</option>
+          <option value="2">Програмирование1</option>
+        </select>
+      </div>
+      <div>
+        <p>Публикация:</p>
+        <div><input type="radio" name="answer" value="1" />на сайте</div>
+        <div><input type="radio" name="answer" value="2" />в журнале</div>
+        <div>
+          <input type="radio" name="answer" value="3" />на сайте и в журнале
+        </div>
+      </div>
+      <div style="clear: both">
+        <p>Разрешить комментарии:</p>
+        <input type="checkbox" name="onlynew" checked />
+      </div>
+      <div>
+        <p>Текст статьи:</p>
+        <textarea name="mytext"></textarea><br />
+        <input type="submit" value="Опубликовать" />
+      </div>
+    </form>
+  </body>
+</html>

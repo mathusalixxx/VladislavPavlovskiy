@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+      </head>
+      <style>
+        * {
+          box-sizing: border-box;
+          margin: 0 auto;
+        }
+        .wrap {
+          background-image: url(1.jpg);
+          background-position: left;
+          background-repeat: repeat-y;
+          background-position: 0%;
+        }
+        .block {
+          height: 400px;
+          width: 200px;
+          float: left;
+        }
+        .header {
+          background-color: aqua;
+          text-align: center;
+          font-weight: bold;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          color: blue;
+        }
+        .menu {
+          background-color: rgb(206, 176, 6);
+        }
+        .main {
+          height: auto;
+          width: auto;
+          background-image: url(http://fe.it-academy.by/Sites/0045717/131.gif);
+          background-repeat: repeat-y;
+          background-position: right;
+          float: none;
+          margin-left: 200px;
+        }
+        .footer {
+          background-color: aqua;
+          text-align: center;
+          font-weight: bold;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          color: blue;
+          clear: both;
+        }
+        ul {
+          padding-top: 10px;
+        }
+        img {
+          float: left;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        h1 {
+          text-align: center;
+        }
+        .club {
+          background-color: greenyellow;
+          height: 70px;
+          width: 150px;
+          text-align: center;
+          padding-top: 10px;
+          position: fixed;
+          right: 20px;
+          top: 20px;
+        }
+        .club > a {
+          font-size: 22px;
+        }
+        @media all and (max-width: 700px) {
+          .wrap {
+            background-image: none;
+          }
+          ul {
+            list-style: none;
+          }
+          .menu {
+            width: auto;
+            background-color: rgb(206, 176, 6);
+            text-align: center;
+            padding: 0;
+          }
+          .menu li {
+            padding-bottom: 5px;
+          }
+          .block {
+            height: auto;
+            float: none;
+          }
+          .main {
+            margin-left: 0px;
+          }
+          img {
+            padding-left: 0px;
+          }
+        }
+      </style>
+      <body>
+        <div class="club"><a href="">Вступить в клуб</a></div>
+        <div class="header">ПРИВЕТ УЧАСТНИКАМ СОРЕВЕНОВАНИЙ!</div>
+        <div class="wrap">
+          <ul class="menu block">
+            <b>Виды спорта:</b>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%8C%D0%BA%D0%BE%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82"
+                >конькобежный спорт</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B0%D1%82%D0%BB%D0%BE%D0%BD"
+                >биатлон</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB"
+                >футбол</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0_%D0%B8%D0%B7_%D0%BB%D1%83%D0%BA%D0%B0_(%D0%B2%D0%B8%D0%B4_%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0)"
+                >стрельба из лука</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B4%D0%BB%D0%B8%D0%BD%D1%83"
+                >прыжки в длину</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%83"
+                >прыжки в высоту</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%B8%D0%B5"
+                >фигурное катание</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"
+                >синхронное плавание</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%88%D0%BA%D0%B8"
+                >шахматы</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B"
+                >шашки</a
+              >
+            </li>
+          </ul>
+          <div class="main block">
+            <h1>ФУТБОЛ</h1>
+            <img
+              src="http://fe.it-academy.by/Sites/0045717/12.png"
+              alt="italy"
+            />
+            Как бы забавно не звучало, но свой определяющий матч на ЧМ-2006
+            сборная Италии провела не в полуфинале с Германией и не в финале с
+            Францией. "Скуадра адзурра" в 1/8 финала получила много проблем в
+            противостоянии с "соккеруз" Гуса Хиддинка, включая удаление Марко
+            Матерацци за грубый фол против Брешиано. Но вышла в четвертьфинал
+            благодаря не очень справедливо назначенному пенальти в
+            компенсированное время после сольного прохода Фабио Гроссо.
+            Франческо Тотти на 90+5 минуте мощным ударом пробил мимо голкипера
+            австралийцев ― 1:0. Будь на тот момент видеоповторы, встреча с
+            большой вероятностью вышла бы за рамки основного времени.Ярче победы
+            сборной Италии над Францией на ЧМ-2006 — только стычка хамоватого,
+            не щадящего ни себя, ни соперников, защитника Марко Матерацци и
+            гениального плеймейкера Зинедина Зидана. Всего этого могло не быть.
+            И неизвестно, чтобы мы до сих пор обсуждали. Защитник "Интера" Марко
+            Матерацци перед ЧМ-2006 был всего лишь запасным аэродромом для
+            Марчелло Липпи, когда основу составляли Фабио Каннаваро и Алессандро
+            Неста. В игре третьего тура группового этапа центральный защитник
+            "Милана" получил травму, вместо которого главный тренер вынужден был
+            выпустить Матерацци. И Марко на доверие сразу же ответил победным
+            голом в ворота чехов. В игре с Австралией Марко тоже отличился,
+            только со своей традиционной негативной стороны ― удалением за
+            прямую красную карточку за грубый подкат против Брешиано. Пропустив
+            матч 1/8 финала с Украиной, Матерацци вернулся в основной состав на
+            игры с Германией и Францией, в итоге оказав огромное влияние на
+            исход всего турнира. В том числе треш-током в отношении Зинедина
+            Зидана, сделав уход француза из футбола очень болезненным.Зинедина
+            Зидана, по всей логической цепочке, тоже могло не быть в Германии.
+            Полузащитник 12 августа 2004 года после неудачи на чемпионате Европы
+            в Греции принял решение завершить международную карьеру и
+            сосредоточиться на клубных выступлениях. Решение было продиктовано
+            уйти на хорошей ноте, имея в виду победы на ЧМ-1998 и Евро-2000.
+          </div>
+        </div>
+        <div class="footer">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
+      </body>
+    </html>
+  </body>
+</html>

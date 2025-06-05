@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title></head
+  ><style>
+    .method_border a {
+      border-right: 4px solid red;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .method_border a:last-of-type {
+      border-right: none;
+    }
+    .method_float {
+      float: left;
+      margin-top: 10px;
+    }
+    .method_float > div {
+      float: left;
+    }
+    .method_float div {
+      border-right: 4px solid red;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .method_float div:last-of-type {
+      border-right: none;
+    }
+    .method_background {
+      background-image: url(a1a.png);
+      background-repeat: no-repeat;
+      margin-top: 35px;
+      width: 600px;
+      height: 25px;
+    }
+    .method_background > a {
+      width: 115px;
+      height: 20px;
+      display: inline-block;
+    }
+    .method_background > a:nth-of-type(4) {
+      width: 130px;
+    }
+    .method_background > a:last-of-type {
+      width: 108px;
+    }
+  </style>
+  <body>
+    <!--Способ через padding и border-right-->
+    <div class="method_border">
+      <a href="">первая ссылка</a>
+      <a href="">вторая ссылка</a>
+      <a href="">третья ссылка</a>
+      <a href="">четвертая ссылка</a>
+      <a href="">пятая ссылка</a>
+    </div>
+    <!--Способ через float: left-->
+    <div class="method_float">
+      <div>
+        <a href="">первая ссылка</a>
+      </div>
+      <div>
+        <a href="">вторая ссылка</a>
+      </div>
+      <div>
+        <a href="">третья ссылка</a>
+      </div>
+      <div>
+        <a href="">четвертая ссылка</a>
+      </div>
+      <div>
+        <a href="">пятая ссылка</a>
+      </div>
+    </div>
+    <!--Способ через background-image и inline-block чтобы элементы стали в строку-->
+    <div class="method_background">
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </div>
+  </body>
+</html>
