@@ -23,15 +23,21 @@
           <p>Creative</p>
         </div>
       </div>
-      <nav class="header_navigation">
+      <nav class="header_navigation" id="myModal">
         <ul class="header_navigation_list font_quick">
           <li><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Sevices</a></li>
           <li><a href="#portfolio">Projects</a></li>
         </ul>
+        <div class="close-btn" onclick="closeModal()">×</div>
       </nav>
       <a href="#contactUs"><button class="btn">Contact us</button></a>
+      <button class="burger-btn" onclick="showModal()">
+        <span class="burger-line"></span>
+        <span class="burger-line burger-line-s"></span>
+        <span class="burger-line"></span>
+      </button>
     </header>
     <main>
       <section class="banner">
@@ -402,5 +408,21 @@
         </div>
       </div>
     </footer>
+    <script>
+      const burgerBtn = document.querySelector(".burger-btn");
+      const navMenu = document.querySelector(".header_navigation");
+
+      burgerBtn.addEventListener("click", () => {
+        burgerBtn.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+      function closeModal() {
+        document.getElementById("myModal").classList.add("hidden");
+      }
+
+      function showModal() {
+        document.getElementById("myModal").classList.remove("hidden");
+      }
+    </script>
   </body>
 </html>
