@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   background-color: var(--black-color);
 }
@@ -17,6 +18,9 @@ body {
   --fontsize-18: 18px;
   --fontsize-20: 20px;
   --fontsize-64: 64px;
+}
+a {
+  color: var(--white-color);
 }
 a:visited {
   color: var(--white-color);
@@ -113,7 +117,7 @@ a:visited {
   width: 12px;
 }
 .banner {
-  background-image: url(img/Ellipse1.svg);
+  background-image: url(img/Ellipse_red.svg);
   background-position: right 80px;
   background-repeat: no-repeat;
 }
@@ -121,8 +125,8 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(img/Ellipse.svg), url(img/Ellipse.svg),
-    url(img/Ellipse1.svg);
+  background-image: url(img/Ellipse_blue.svg), url(img/Ellipse_blue.svg),
+    url(img/Ellipse_red.svg);
   background-position: -18px 240px, right 400px, 180px 600px;
   background-repeat: no-repeat;
 }
@@ -147,9 +151,10 @@ a:visited {
   background-position: 175px 490px, 135px 20px;
 }
 .banner_img_reviews {
-  background-image: url(img/homepage.png);
+  background-image: url(img/homepage.jpg);
   width: 739px;
   height: 501px;
+  border-radius: 50px;
 }
 .banner_img_reviews_1 {
   width: 175px;
@@ -224,6 +229,9 @@ a:visited {
   justify-content: space-around;
   margin-bottom: 80px;
 }
+.aboutus_info_img > img {
+  border-radius: 25px;
+}
 .aboutus_info_text {
   margin-top: 25px;
 }
@@ -239,7 +247,7 @@ a:visited {
 }
 .aboutus_info_text_btns_2 {
   width: 210px;
-  background-image: url(img/icon1.svg);
+  background-image: url(img/Play.svg);
   background-repeat: no-repeat;
   background-position: 36px 12px;
 }
@@ -266,15 +274,15 @@ a:visited {
 .aboutus_team1_logo {
   width: 80px;
   height: 80px;
-  background-color: var(--white-color);
+  background-color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .aboutus_team1_logo > img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .services {
   padding-top: 150px;
@@ -413,13 +421,13 @@ a:visited {
   margin-bottom: 50px;
 }
 .portfolio_text1 {
-  background-image: url(img/portfolio1.png);
+  background-image: url(img/portfolio1.jpg);
 }
 .portfolio_text2 {
-  background-image: url(img/portfolio2.png);
+  background-image: url(img/portfolio2.jpg);
 }
 .portfolio_text3 {
-  background-image: url(img/portfolio3.png);
+  background-image: url(img/portfolio3.jpg);
 }
 .portfolio_btn {
   width: 226px;
@@ -442,6 +450,7 @@ a:visited {
 .contact_us_form > form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 50px;
   margin-bottom: 50px;
   margin-top: 30px;
@@ -450,7 +459,7 @@ form input {
   width: 300px;
   height: 56px;
   border-radius: 20px;
-  padding-left: 30px;
+  text-align: center;
   background-color: var(--white-color);
 }
 .testimonial_container {
@@ -538,6 +547,9 @@ form input {
   position: relative;
   bottom: -90px;
   left: 15px;
+}
+.collaboration_img_1 > img {
+  border-radius: 16px;
 }
 .footer {
   background-color: #383638;
@@ -727,10 +739,11 @@ form input {
     padding-right: 10px;
   }
   .banner_img_reviews {
-    background-image: url(img/homepage.png);
+    background-image: url(img/homepage.jpg);
     width: 330px;
     height: 224px;
     background-size: cover;
+    border-radius: 25px;
   }
   .banner_img_reviews_1 {
     width: 99px;
@@ -782,8 +795,7 @@ form input {
     margin-top: 10px;
   }
   .aboutus_container {
-    background-image: url(img/tochka_prpl.svg);
-    background-position: 5px 430px;
+    background-position: 5px 435px;
   }
   .aboutus_info {
     flex-direction: column;
@@ -795,6 +807,7 @@ form input {
 
   .aboutus_info_img {
     order: 2;
+    border-radius: 25px;
   }
   .aboutus_info_text {
     margin-top: 0px;
